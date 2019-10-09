@@ -26,7 +26,7 @@ public class View extends JFrame {
         tp = new JTabbedPane(JTabbedPane.LEFT);
         tp.setSize(500, 500);
         
-         jp = new JPanel();
+        jp = new JPanel();
         JButton bb = new JButton("Add Tab");
         bb.setPreferredSize(new Dimension(75, 50));
         bb.addActionListener(new ActionListener() {
